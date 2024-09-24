@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            .lexend-font {
+                font-family: "Lexend", sans-serif;
+            }
+            .btn:active{
+              background-color: #B4F461;
+            }
+        </style>
+        <!--daisyui-->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--font awsome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 px-12 py-6 bg-[#F9F7F3] ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="">
+                       
+                  
+                    </div>
+                
+                  </div>
+                  <button onclick="window.location.href='index.html'" class="btn bg-[#B4F461] font-semibold text-black text-center ">Home</button>
+                </div>
+                <div class="hidden  navbar-center  gap-2 lg:flex">
+                    <img class="" src="assets/logo.png" alt="">
+                    <h3 class=" font-semibold lg:text-2xl text-black">Donate Bangladesh</h3>
+                
+                </div>
+                <div class="navbar-end">
+                  <img src="assets/coin.png" alt="">
+                  <h3 class="font-semibold text-[#111111B3] text-xl">5000 BDT</h3>
+                </div>
+              </div>
+        </nav>
+    
+    </header>
+    <main>
+        <div class="flex">
+            <h1 class="text-black font-bold text-4xl p-8 ">Important FAQ</h1>
+           <div class="flex justify-center items-center text-4xl ">
+            <i class="fa-regular fa-circle-question"></i>
+           </div>
+        </div>
+        <div class="join join-vertical w-11/12 my-5 mx-10">
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">What is the Document object Model(DOM)?</div>
+              <div class="collapse-content">
+                <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">How do you select an Element from the DOM?</div>
+              <div class="collapse-content">
+                <p>You can select an element from the DOM using methods like document.getElementById("id") for an element with a specific ID, document.querySelector("selector") for the first element matching a CSS selector, or document.querySelectorAll("selector") for all elements matching a CSS selecto</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM,& why it is useful?</div>
+              <div class="collapse-content">
+                <p>Event delegation is a technique where a single event listener is added to a parent element to manage events for its child elements. This is useful because it reduces the number of event listeners needed, improving performance and making the code easier to manage</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM? </div>
+                <div class="collapse-content">
+                  <p>You can manipulate an element’s attributes using methods like element.setAttribute("attribute", "value") and element.removeAttribute("attribute"). For styles, you can use element.style.property = "value" to change specific CSS properties</p>
+                </div>
+              </div>
+          </div>
+    </main>
+</body>
+</html>
